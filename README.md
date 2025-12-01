@@ -2,7 +2,7 @@ Multi-Agent Newsletter Automation (n8n)
 
 An automated end-to-end newsletter creation system built using n8n, multi-agent LLM coordination, Google Sheets, and Gmail.
 
-This workflow researches topics, generates newsletter sections, edits them, performs quality checks, and finally delivers a ready-to-send HTML newsletter—with zero manual writing.
+This workflow researches topics, generates newsletter sections, edits them, performs quality checks, and finally delivers a ready to send HTML newsletter with zero manual writing.
 
 
 ⚙️ Features
@@ -89,7 +89,7 @@ Reduces newsletter creation time from hours to minutes
 
 Ensures consistent weekly output
 
-Produces research-backed, structured, high-quality content
+Produces research-backed, structured, high quality content
 
 Offloads writing, editing, formatting, and QA
 
