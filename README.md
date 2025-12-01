@@ -12,11 +12,13 @@ This workflow researches topics, generates newsletter sections, edits them, perf
 Reads the next pending topic from your Newsletter Sheet and kicks off the full pipeline.
 
 
+
 🔍 Initial & Sub-Topic Research (Tavily API)
 
 Conducts initial research on the main topic.
 
 Breaks the newsletter into 3 sub-topics and collects fresh articles for each.
+
 
 
 🧠 Multi-Agent Workflow
@@ -32,14 +34,17 @@ Editor Agent — Converts Markdown into polished, responsive HTML with formattin
 QA Agent — Final accuracy, tone, and quality check before delivery.
 
 
+
 🧩 Automated Formatting & Assembly
 
 Merges all sections, applies styling rules, converts sources into a unified block, and prepares the final email body.
 
 
+
 ✉️ Auto Email Delivery (Gmail)
 
 If approved: creates a newsletter email draft in Gmail with subject + HTML body.
+
 
 
 ❌ Rejection Handling (CRM Logging)
@@ -50,12 +55,12 @@ Logs failure details
 
 Saves feedback in a separate CRM sheet
 
-Marks the topic for review
 
 
 📅 Scheduled Execution
 
 Runs automatically based on the n8n Schedule Trigger (e.g., every week at a set time).
+
 
 
 🧩 Workflow Structure
@@ -74,15 +79,6 @@ IF Check (Approved or Rejected)
 Gmail Draft Sender OR Rejection CRM Sheet
 
 
-Recommended to use Google Sheets OAuth and Gmail OAuth credentials.
-
-Tavily API is required for topic and article research.
-
-Designed for creators, agencies, and businesses producing weekly newsletters.
-
-Produces a fully polished HTML newsletter ready for sending or further edits.
-
-Modular design: each agent can be replaced or upgraded independently.
 
 
 🚀 Automation Value
