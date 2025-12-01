@@ -6,18 +6,20 @@ This workflow researches topics, generates newsletter sections, edits them, perf
 
 
 ⚙️ Features
+
 🔄 Automated Topic Fetching (Google Sheets)
 
 Reads the next pending topic from your Newsletter Sheet and kicks off the full pipeline.
 
-Initial & Sub-Topic Research (Tavily API)
+
+🔍 Initial & Sub-Topic Research (Tavily API)
 
 Conducts initial research on the main topic.
 
 Breaks the newsletter into 3 sub-topics and collects fresh articles for each.
 
-Multi-Agent Workflow
 
+🧠 Multi-Agent Workflow
 
 Each agent performs a specialized job:
 
